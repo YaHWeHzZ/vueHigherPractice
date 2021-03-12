@@ -28,9 +28,19 @@ const routes = [{
     component: () => import('@/views/promise/Main.vue')
   },
   {
+    path: '/computed',
+    name: 'computed',
+    component: () => import('@/views/computed/computedIndex.vue')
+  },
+  {
+    path: '/PageLayout',
+    name: 'PageLayout',
+    component: () => import('@/views/PageLayout/Main.vue')
+  },
+  {
     path: '/test',
     name: 'test',
-    component: () => import('@/views/test/Main.vue')
+    component: () => import('@/views/test/testIndex.vue')
   }
 ]
 
